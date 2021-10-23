@@ -13,7 +13,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.1]
       t.string :days_of_operations
       t.string :hours_of_operations
       t.integer :no_of_chairs
-      t.boolean :user_type
+      t.integer :user_type
 
       ## Recoverable
       t.string   :reset_password_token

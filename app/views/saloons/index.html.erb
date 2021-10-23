@@ -1,0 +1,16 @@
+<h1 class="text-center">Saloon Details</h1>
+
+<div class="card text-center">
+  <div class="card-header">
+    <%= @saloon.company_name%>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">GSTIN: <%= @saloon.gstin%></li>
+    <li class="list-group-item">Pan Number: <%= @saloon.pan_number%></li>
+    <li class="list-group-item">Address: <%= @saloon.address%></li>
+    <li class="list-group-item">Numbers Of Chairs Available: <%= @saloon.no_of_chairs%></li>
+    <li class="list-group-item">Days Of Operation: <%= @saloon.days_of_operations%></li>
+    <li class="list-group-item">Hours Of Operation: <%= @saloon.hours_of_operations%></li>
+    <li><button type="button" name="button">Book the service</button></li>
+  </ul>
+</div>

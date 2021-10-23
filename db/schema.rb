@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2021_10_22_201517) do
     t.string "days_of_operations"
     t.string "hours_of_operations"
     t.integer "no_of_chairs"
-    t.boolean "user_type"
+    t.integer "user_type"
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
